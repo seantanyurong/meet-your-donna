@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  letter-spacing: 0.02rem;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../public/fonts/GraphikLight.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../public/fonts/GraphikRegular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../public/fonts/GraphikMedium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../public/fonts/GraphikSemibold.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../public/fonts/GraphikBold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "GRAPHIK";
+  src: url("../public/fonts/GraphikBlack.otf");
+  font-weight: 900;
+}

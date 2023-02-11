@@ -1,8 +1,12 @@
+import Banner from "../components/layout/General/Banner";
+import Header from "../components/layout/General/Header";
 import HeroBanner from "../components/layout/HomePage/HeroBanner";
 
 const HomePage = () => {
   return (
-    <div className="mx-3 md:mx-6 my-20">
+    <div className="flex flex-col min-h-screen overflow-hidden">
+      <Banner />
+      <Header />
       <HeroBanner />
     </div>
   );
