@@ -9,7 +9,12 @@ module.exports = {
         },
         link: { main: "#1e64e6", hover: "#1d2d35" },
         text: { main: "#1d2d35", hover: "#1d2d35" },
-        highlight: { eggshell: "#fcf4f2" },
+        highlight: {
+          eggshell: "#fcf4f2",
+          darkEggshell: "#f2eae8",
+          lightYellow: "#ffffe1",
+          yellow: "#FFE42D",
+        },
         gray: {
           100: "#FBFBFB",
           200: "#EAEAEA",
@@ -56,6 +61,15 @@ module.exports = {
         inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.04)",
         outline: "0 0 0 3px rgba(66, 153, 225, 0.5)",
         none: "none",
+      },
+      borderWidth: {
+        3: "3px",
+      },
+      dropShadow: {
+        "3xl": [
+          "0 15px 25px rgba(0, 0, 0, 0.35)",
+          "0 25px 45px rgba(0, 0, 0, 0.15)",
+        ],
       },
       spacing: {
         "9/16": "56.25%",

@@ -1,11 +1,13 @@
+import TrioImg from "../../../assets/HomePage/Trio.png";
+
 function HeroBanner() {
   return (
-    <section className="before:block before:absolute before:-inset-1  before:bg-gradient-to-b before:from-highlight-eggshell before:to-white before:h-full before:-z-1 relative">
+    <section className="text-center before:block before:absolute before:-inset-1  before:bg-gradient-to-b before:from-highlight-eggshell before:to-white before:h-full before:-z-1 relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
-        <div className="pt-8 pb-12 md:pt-4 md:pb-20">
+        <div className=" pt-8  md:pt-4 ">
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16">
+          <div className=" pb-12 md:pb-16">
             <h1 className="text-2xl md:text-6xl font-bold leading-none mb-4 text-text-main">
               We help successful solo entrepreneurs run their businesses.
             </h1>
@@ -34,6 +36,19 @@ function HeroBanner() {
           </div>
         </div>
       </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <img
+          className="mx-auto drop-shadow-3xl mb-10"
+          src={TrioImg}
+          alt="Logo"
+        />
+      </div>
+      <a
+        href="/placeholder"
+        className="font-semibold text-2xl text-link-main hover:text-link-hover underline"
+      >
+        See everything we can do in the skills gallery
+      </a>
     </section>
   );
 }
