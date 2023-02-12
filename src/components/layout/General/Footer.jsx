@@ -7,7 +7,7 @@ function Footer() {
     <footer>
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Top area: Blocks */}
-        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 border-t border-gray-200">
+        <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12 ">
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
@@ -23,24 +23,24 @@ function Footer() {
                 />
               </Link>
             </div>
-            <div className="text-sm text-gray-600">
-              <Link
-                to="#"
-                className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
-              >
+            <div className="text-sm text-text-main">
+              <h5 to="#" className="text-text-main text-lg font-bold mb-2">
+                We're here to help.
+              </h5>
+              <p to="#" className="text-text-main">
                 It's about time you outsource your work to a trusted team.
-              </Link>
+              </p>
             </div>
           </div>
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-text-main font-bold mb-2">Products</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Web Studio
                 </Link>
@@ -48,7 +48,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   DynamicBox Flex
                 </Link>
@@ -56,7 +56,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Programming Forms
                 </Link>
@@ -64,7 +64,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Integrations
                 </Link>
@@ -72,7 +72,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Command-line
                 </Link>
@@ -82,12 +82,12 @@ function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Resources</h6>
+            <h6 className="text-text-main font-bold mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Documentation
                 </Link>
@@ -95,7 +95,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Tutorials & Guides
                 </Link>
@@ -103,7 +103,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Blog
                 </Link>
@@ -111,7 +111,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Support Center
                 </Link>
@@ -119,7 +119,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Partners
                 </Link>
@@ -129,12 +129,12 @@ function Footer() {
 
           {/* 4th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Company</h6>
+            <h6 className="text-text-main font-bold mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Home
                 </Link>
@@ -142,7 +142,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   About us
                 </Link>
@@ -150,7 +150,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Company values
                 </Link>
@@ -158,7 +158,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Pricing
                 </Link>
@@ -166,7 +166,7 @@ function Footer() {
               <li className="mb-2">
                 <Link
                   to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                  className="text-text-main transition duration-150 ease-in-out"
                 >
                   Privacy Policy
                 </Link>
@@ -176,8 +176,8 @@ function Footer() {
 
           {/* 5th block */}
           {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
-            <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
-            <p className="text-sm text-gray-600 mb-4">
+            <h6 className="text-text-main font-bold mb-2">Subscribe</h6>
+            <p className="text-sm text-text-main mb-4">
               Get the latest news and articles to your inbox every month.
             </p>
             <form>
@@ -190,7 +190,7 @@ function Footer() {
                     <input
                       id="newsletter"
                       type="email"
-                      className="form-input w-full text-gray-800 px-3 py-2 pr-12 text-sm"
+                      className="form-input w-full text-text-main px-3 py-2 pr-12 text-sm"
                       placeholder="Your email"
                       required
                     />
@@ -228,7 +228,7 @@ function Footer() {
             <li>
               <Link
                 to="#"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-text-main bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Twitter"
               >
                 <svg
@@ -243,7 +243,7 @@ function Footer() {
             <li className="ml-4">
               <Link
                 to="#"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-text-main bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Github"
               >
                 <svg
@@ -258,7 +258,7 @@ function Footer() {
             <li className="ml-4">
               <Link
                 to="#"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-text-main bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Facebook"
               >
                 <svg
@@ -273,7 +273,7 @@ function Footer() {
           </ul> */}
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">
+          <div className="text-sm text-text-main mr-4">
             &copy; MeetYourDonna.com. All rights reserved.
           </div>
         </div>

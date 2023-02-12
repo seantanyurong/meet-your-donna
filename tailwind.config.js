@@ -126,6 +126,7 @@ module.exports = {
         48: "12rem",
       },
       maxWidth: {
+        "5xl": "68rem",
         "8xl": "85rem",
       },
       opacity: {

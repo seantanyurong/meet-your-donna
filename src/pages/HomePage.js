@@ -4,6 +4,7 @@ import HeroBanner from "../components/layout/HomePage/HeroBanner";
 import Introduction from "../components/layout/HomePage/Introduction";
 import SkillGallery from "../components/layout/HomePage/SkillGallery";
 import Faq from "../components/layout/HomePage/Faq";
+import Cta from "../components/layout/HomePage/Cta";
 import Footer from "../components/layout/General/Footer";
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Introduction />
       <SkillGallery />
       <Faq />
+      <Cta />
       <Footer />
     </div>
   );
