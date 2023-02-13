@@ -5,60 +5,35 @@ function SkillGallery() {
         {/* Divider */}
         <span className="block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
         <h3 className="text-3xl font-bold text-text-main mb-3">
-          What we can help with.
+          Our skills and accomplishments.
         </h3>
       </div>
       <div>
         <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "Much{" "}
-            <mark className="bg-highlight-yellow">
-              easier to track progress
-            </mark>
-            ."
+            "<mark className="bg-highlight-yellow">Top 3% Web Developer</mark>{" "}
+            on Upwork ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "
-            <mark className="bg-highlight-yellow">
-              Better at supporting our clients
-            </mark>
-            ."
+            "<mark className="bg-highlight-yellow">First-class Honours</mark>{" "}
+            Degree."
           </p>
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
         </div>
         <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "<mark className="bg-highlight-yellow">Fewer meetings</mark>
+            "<mark className="bg-highlight-yellow">Tiktok Star</mark>
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "Basecamp{" "}
-            <mark className="bg-highlight-yellow">made me a hero</mark>
-            ."
+            "<mark className="bg-highlight-yellow">Computing Degree</mark> from
+            4th Ranked University Globally."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "
-            <mark className="bg-highlight-yellow">
-              Reduced miscommunication
-            </mark>
+            "<mark className="bg-highlight-yellow">Graphic Design</mark>
             ."
-          </p>
-          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
-        </div>
-        <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
-          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
-          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "<mark className="bg-highlight-yellow">Managed my chaos</mark>
-            ."
-          </p>
-          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "
-            <mark className="bg-highlight-yellow">
-              Stopped looking in multiple places
-            </mark>{" "}
-            for our work."
           </p>
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
         </div>
@@ -67,14 +42,26 @@ function SkillGallery() {
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Accountability has improved
+              Sales & Business Development
             </mark>
+            ."
+          </p>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
+            "<mark className="bg-highlight-yellow">Vice President</mark> of TWO
+            Entrepreneurship Societies."
+          </p>
+          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
+        </div>
+        <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
+          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
+            "<mark className="bg-highlight-yellow">Facebook & Google Ads</mark>
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Never seen productivity at this level
+              Marketing Technology & Automation
             </mark>
             ."
           </p>
@@ -83,16 +70,13 @@ function SkillGallery() {
         <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "Much{" "}
-            <mark className="bg-highlight-yellow">
-              easier to track progress
-            </mark>
+            "<mark className="bg-highlight-yellow">Podcast Creator</mark>
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Better at supporting our clients
+              Self-proclaimed Notion Gods
             </mark>
             ."
           </p>
@@ -101,19 +85,19 @@ function SkillGallery() {
         <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "<mark className="bg-highlight-yellow">Fewer meetings</mark>
+            "<mark className="bg-highlight-yellow">AWS Certified</mark>
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "Basecamp{" "}
-            <mark className="bg-highlight-yellow">made me a hero</mark>
+            "We can{" "}
+            <mark className="bg-highlight-yellow">
+              Learn Almost Anything Quickly
+            </mark>
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "
-            <mark className="bg-highlight-yellow">
-              Reduced miscommunication
-            </mark>
+            <mark className="bg-highlight-yellow">Effective Communicators</mark>
             ."
           </p>
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
@@ -121,17 +105,12 @@ function SkillGallery() {
         <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "Much{" "}
-            <mark className="bg-highlight-yellow">
-              easier to track progress
-            </mark>
+            "Really Big on{" "}
+            <mark className="bg-highlight-yellow">Planning & Operations</mark>
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "
-            <mark className="bg-highlight-yellow">
-              Better at supporting our clients
-            </mark>
+            "<mark className="bg-highlight-yellow">Pardot Certified</mark>
             ."
           </p>
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
@@ -139,19 +118,16 @@ function SkillGallery() {
         <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "<mark className="bg-highlight-yellow">Fewer meetings</mark>
+            "<mark className="bg-highlight-yellow">Landing Page Lovers</mark>
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "Basecamp{" "}
-            <mark className="bg-highlight-yellow">made me a hero</mark>
-            ."
+            "<mark className="bg-highlight-yellow">Communications Degree</mark>{" "}
+            from Prestigious Programme ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "
-            <mark className="bg-highlight-yellow">
-              Reduced miscommunication
-            </mark>
+            <mark className="bg-highlight-yellow">Social Media Management</mark>
             ."
           </p>
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>

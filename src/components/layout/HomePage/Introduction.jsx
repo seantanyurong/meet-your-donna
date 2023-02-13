@@ -62,22 +62,42 @@ function Introduction() {
           </p>
         </div>
         <div className="col-span-2">
-          <div className="bg-highlight-lightYellow p-8 rounded-md border">
+          <div className="bg-highlight-lightYellow p-7 rounded-md border">
             <h4 className="text-lg font-bold mb-2">Things to check out</h4>
             <ul>
               <li>
                 •{" "}
                 <a
-                  href="/placeholder"
+                  href="https://the100club.io/"
+                  target="_blank"
+                  rel="noreferrer"
                   className="font-semibold text-sm text-link-main hover:text-link-hover underline"
                 >
-                  We run The 100 Club.
+                  We co-founded The 100 Club.
                 </a>
               </li>
               <li>
                 •{" "}
                 <a
-                  href="/placeholder"
+                  href="https://www.linkedin.com/in/seantanyurong/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-sm text-link-main hover:text-link-hover underline"
+                >
+                  LinkedIn.
+                </a>{" "}
+                <a
+                  href="https://www.linkedin.com/in/joseph-ozl/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-sm text-link-main hover:text-link-hover underline"
+                >
+                  LinkedIn.
+                </a>{" "}
+                <a
+                  href="https://www.linkedin.com/in/jonas-tan-kah-kai/"
+                  target="_blank"
+                  rel="noreferrer"
                   className="font-semibold text-sm text-link-main hover:text-link-hover underline"
                 >
                   LinkedIn.
@@ -86,19 +106,45 @@ function Introduction() {
               <li>
                 •{" "}
                 <a
-                  href="/placeholder"
+                  href="https://drive.google.com/file/d/1lBT6xAFxvSDG3yuVmYRXwqQpdlsp5yOR/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
                   className="font-semibold text-sm text-link-main hover:text-link-hover underline"
                 >
-                  Personal Website.
+                  Marketing case study - wham.
                 </a>
               </li>
               <li>
                 •{" "}
                 <a
-                  href="/placeholder"
+                  href="https://github.com/seantanyurong"
+                  target="_blank"
+                  rel="noreferrer"
                   className="font-semibold text-sm text-link-main hover:text-link-hover underline"
                 >
-                  Customer testimonials.
+                  Yes, we code - a lot.
+                </a>
+              </li>
+              <li>
+                •{" "}
+                <a
+                  href="https://basecamp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-sm text-link-main hover:text-link-hover underline"
+                >
+                  Hmm this website looks familiar...
+                </a>
+              </li>
+              <li>
+                •{" "}
+                <a
+                  href="https://basecamp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-sm text-link-main hover:text-link-hover underline"
+                >
+                  Browse our skills.
                 </a>
               </li>
             </ul>

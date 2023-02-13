@@ -28,7 +28,8 @@ function Footer() {
                 We're here to help.
               </h5>
               <p to="#" className="text-text-main">
-                It's about time you outsource your work to a trusted team.
+                Every Harvey needs a Donna. Get the superstar trio that you
+                deserve.
               </p>
             </div>
           </div>

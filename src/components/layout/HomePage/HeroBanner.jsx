@@ -9,13 +9,14 @@ function HeroBanner() {
           {/* Section header */}
           <div className=" pb-12 md:pb-16">
             <h1 className="text-2xl md:text-6xl font-bold leading-none mb-4 text-text-main">
-              We help successful solo entrepreneurs run their businesses.
+              We help successful solo entrepreneurs do the dumb work.
             </h1>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-text-main mb-8">
-                Managing people and projects under pressure is tough enough.
-                Unfortunately, lots of software makes it worse by
-                over-complicating things.
+                Donna is a full-stack team of 3 Singaporean dudes that will help
+                you take care of the tasks that are stealing your energy,
+                leaving you free to focus on what matters. We're like virtual
+                assistants - but on steroids.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -27,7 +28,7 @@ function HeroBanner() {
                       Schedule a free chat
                     </h3>
                     <p className="text-sm font-light">
-                      No credit card required. Cancel anytime.
+                      No strings attached. Just for us to get to know you.
                     </p>
                   </div>
                 </a>

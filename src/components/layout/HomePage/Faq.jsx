@@ -1,63 +1,53 @@
 function Faq() {
   return (
     <section className="mt-16">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center">
           <h3 className="text-4xl font-bold text-text-main mb-3">
-            Budgets love Basecamp
+            Who is Donna?
           </h3>
           <p className="text-2xl text-text-main mb-8">
-            When you switch to Basecamp, you don’t need to pay for things like
-            Slack, Trello, Asana, or Google Docs. Basecamp replaces all that
-            stuff. It’s easy to lighten your load, simplify your workflow, and
-            save real money right now with Basecamp.
+            Well, Donna is the name of our trio. But if you're asking where we
+            got the inspiration from, she's the superstar assistant to famous
+            lawyer, Harvey, in the TV show, Suits.
           </p>
           <span className="mx-auto block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
         </div>
         <div className="text-center">
           <h3 className="text-4xl font-bold text-text-main mb-3">
-            A big boost for bootstrappers & small businesses
+            So what exactly can you guys do?
           </h3>
           <p className="text-2xl text-text-main mb-8">
-            We started our business without outside funding, and you probably
-            did too. We know your money’s precious, and we want to help. That’s
-            why Basecamp is intentionally affordable for start-ups, freelancers,
-            and small businesses just getting started.
+            Well, between the 3 of us, we're really a swiss army knife that can
+            do most things ranging from technical development to social media
+            management. And anything we can't do, we learn quickly. As a
+            founder, you're likely a generalist as well - so think of us as an
+            extension.
           </p>
           <span className="mx-auto block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
         </div>
         <div className="text-center">
           <h3 className="text-4xl font-bold text-text-main mb-3">
-            Non-profit or educational discounts?
+            Why are you guys doing this?
           </h3>
           <p className="text-2xl text-text-main mb-8">
-            Yes, we offer per-user discounts for non-profits, and entirely free
-            accounts for teachers and students (including homeschoolers and
-            alternate education programs). Please review the discounts page for
-            details and directions.
+            As founders ourselves, we realise that the most valuable members of
+            the team are generalists that can adapt to any situation. Similar to
+            a number two almost. However, it's not exactly the easiest role to
+            look for with most job hunts pidgeonholing skillsets. That's where
+            we come in.
           </p>
           <span className="mx-auto block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
         </div>
         <div className="text-center">
           <h3 className="text-4xl font-bold text-text-main mb-3">
-            Risk-free, cancel anytime, no long-term lock-in
+            Ok, I'm sold - what do you charge?
           </h3>
           <p className="text-2xl text-text-main mb-8">
-            With Basecamp, cancellation is entirely self-serve, no questions
-            asked, no retention specialists trying to talk you out of it. Cancel
-            any time, no long-term contracts to lock you in. Simple,
-            straightforward, and fair, just as it should be.
-          </p>
-          <span className="mx-auto block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
-        </div>
-        <div className="text-center">
-          <h3 className="text-4xl font-bold text-text-main mb-3">
-            How do customers feel after buying Basecamp?
-          </h3>
-          <p className="text-2xl text-text-main mb-8">
-            We asked our customers{" "}
-            <b>“What changed for the better since you switched to Basecamp?”</b>{" "}
-            Thousands responded, here’s some of what they said…
+            We charge a monthly fee for a certain amount of credits. Each task
+            you require us to do will be allocated a credit count depending on
+            workload. Our goal however, is really to work long term, and help
+            you run and optimise your business so you can free up your time.
           </p>
           <span className="mx-auto block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
         </div>
