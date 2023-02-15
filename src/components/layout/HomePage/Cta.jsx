@@ -5,14 +5,14 @@ const Cta = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center mb-16">
       <div className=" bg-highlight-eggshell p-8 md:p-20 rounded-md border-2 border-dotted border-text-main">
         <h3 className="text-3xl md:text-5xl font-bold leading-none mb-4 text-text-main">
-          It's time to focus your efforts on more important things as we handle
-          the rest.
+          It's time to stop working in your business, and{" "}
+          <u>working on your business instead.</u>
         </h3>
         <p className="text-xl md:text-2xl text-text-main mb-8">
           As a successful founder, you have likely experienced the challenges of
-          juggling multiple tasks and responsibilities, often resulting in a
-          lack of time and energy to focus on growing your business. That's
-          where we come in.
+          juggling multiple secondary tasks and responsibilities, often
+          resulting in a lack of time and energy to focus on primarily growing
+          your business – that's where Donna comes in.
         </p>
         <div className="mx-auto max-w-sm sm:max-w-none sm:flex sm:justify-center">
           <a
