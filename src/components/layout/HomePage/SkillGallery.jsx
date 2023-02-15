@@ -12,8 +12,11 @@ function SkillGallery() {
         <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "<mark className="bg-highlight-yellow">Top 3% Web Developer</mark>{" "}
-            on Upwork ."
+            "
+            <mark className="bg-highlight-yellow">
+              Top 3% Developer on Upwork
+            </mark>
+            ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "<mark className="bg-highlight-yellow">First-class Honours</mark>{" "}
@@ -61,7 +64,7 @@ function SkillGallery() {
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Marketing Technology & Automation
+              Wordpress, Shopify, Unbounce, etc.
             </mark>
             ."
           </p>
@@ -122,12 +125,41 @@ function SkillGallery() {
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "<mark className="bg-highlight-yellow">Communications Degree</mark>{" "}
-            from Prestigious Programme ."
+            "Prestigious{" "}
+            <mark className="bg-highlight-yellow">Communications Degree</mark> "
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "
             <mark className="bg-highlight-yellow">Social Media Management</mark>
+            ."
+          </p>
+          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
+        </div>
+        <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
+          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
+            "<mark className="bg-highlight-yellow">Lead Generation</mark>
+            ."
+          </p>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
+            "<mark className="bg-highlight-yellow">eCommerce Management</mark>
+            ."
+          </p>
+          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
+        </div>
+        <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
+          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
+            "<mark className="bg-highlight-yellow">Powerful Presenters</mark>
+            ."
+          </p>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
+            "SQL or NoSQL{" "}
+            <mark className="bg-highlight-yellow">Data Analysis</mark>
+            ."
+          </p>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
+            "<mark className="bg-highlight-yellow">Figma Experts</mark>
             ."
           </p>
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
