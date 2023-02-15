@@ -13,10 +13,9 @@ function HeroBanner() {
             </h1>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-text-main mb-8">
-                Donna is a full-stack team of 3 Singaporean dudes that will help
-                you take care of tasks that are stealing your energy, leaving
-                you free to focus on what matters. We're like virtual assistants
-                – but on steroids.
+                Donna is a full-stack team of 3 super virtual assistants that
+                will help you take care of tasks that are stealing your energy,
+                leaving you free to focus on what matters.
               </p>
               <div className="mx-auto max-w-xs sm:max-w-none sm:flex sm:justify-center">
                 <a
