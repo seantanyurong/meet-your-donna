@@ -18,17 +18,18 @@ function HeroBanner() {
                 leaving you free to focus on what matters. We're like virtual
                 assistants - but on steroids.
               </p>
-              <div
-                className="mx-auto max-w-sm sm:max-w-none sm:flex sm:justify-center"
-                data-aos-delay="300"
-              >
-                <a href="/placeholder">
-                  <div className=" bg-primary-main hover:bg-primary-hover text-white py-4 px-10 rounded-full items-center">
+              <div className="mx-auto max-w-xs sm:max-w-none sm:flex sm:justify-center">
+                <a
+                  href="https://ix0dy8pqosu.typeform.com/to/XZLHJIV8"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className=" bg-primary-main hover:bg-primary-hover text-white py-4 px-2 md:px-10 rounded-full items-center">
                     <h3 className="text-xl md:text-2xl font-medium">
                       Schedule a free chat
                     </h3>
                     <p className="text-xs sm:text-sm font-light">
-                      No strings attached. Just for us to get to know you.
+                      No strings attached. Just to get to know you.
                     </p>
                   </div>
                 </a>
@@ -45,7 +46,7 @@ function HeroBanner() {
         />
       </div>
       <a
-        href="/placeholder"
+        href="#skills"
         className="font-semibold text-2xl text-link-main hover:text-link-hover underline"
       >
         See everything we can do in the skills gallery

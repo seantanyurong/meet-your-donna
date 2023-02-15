@@ -38,7 +38,7 @@ function Header() {
 
   return (
     <header
-      className={` w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out pt-8 pb-12 bg-highlight-eggshell
+      className={`z-30 md:bg-opacity-90 transition duration-300 ease-in-out pt-8 pb-12 bg-highlight-eggshell
       `}
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-6">
@@ -46,11 +46,7 @@ function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4 ">
             {/* Logo */}
-            <Link
-              to="/"
-              className="flex items-center relative "
-              aria-label="Cruip"
-            >
+            <Link to="/" className="flex items-center relative ">
               <img className="mx-auto h-7" src={LogoImg} alt="Logo" />
               <div className="w-[16.5rem] origin-bottom -rotate-2 absolute bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center -left-[50%] mx-auto sm:-left-[20px] -bottom-[45px]">
                 {[...Array(5)].map((x, i) => (
@@ -78,20 +74,22 @@ function Header() {
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link
-                  to="/signin"
+                <a
+                  href="#about"
                   className="font-semibold text-link-main hover:text-link-hover px-5 py-3 flex items-center transition duration-150 ease-in-out underline"
                 >
                   How does it work?
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  to="/signup"
+                <a
+                  href="https://ix0dy8pqosu.typeform.com/to/XZLHJIV8"
+                  target="_blank"
+                  rel="noreferrer"
                   className=" bg-primary-main hover:bg-primary-hover font-semibold text-white py-2 px-4 rounded-full flex items-center"
                 >
                   <span>Schedule a call</span>
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>

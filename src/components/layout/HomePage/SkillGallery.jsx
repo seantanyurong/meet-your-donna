@@ -1,10 +1,10 @@
 function SkillGallery() {
   return (
     <section className="mt-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6" id="skills">
         {/* Divider */}
         <span className="block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
-        <h3 className="text-3xl font-bold text-text-main mb-3">
+        <h3 className="text-3xl font-bold text-text-main mb-3 leading-tighter">
           Our skills and accomplishments.
         </h3>
       </div>

@@ -1,9 +1,9 @@
 function Introduction() {
   return (
-    <section className="mt-16">
+    <section className="mt-16" id="about">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-7 gap-16">
         <div className="col-span-7 lg:col-span-5">
-          <h3 className="text-3xl font-bold text-text-main mb-3">
+          <h3 className="text-3xl font-bold text-text-main mb-3 leading-tighter">
             What makes Donna special?
           </h3>
           <p className="text-md text-text-main mb-3">
@@ -61,7 +61,7 @@ function Introduction() {
             method instead. <b>Level up.</b>
           </p>
         </div>
-        <div className="col-span-5 lg:col-span-2">
+        <div className="col-span-6 lg:col-span-2">
           <div className="bg-highlight-lightYellow p-7 rounded-md border">
             <h4 className="text-lg font-bold mb-2">Things to check out</h4>
             <ul>

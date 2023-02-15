@@ -12,15 +12,9 @@ function Footer() {
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
               {/* Logo */}
-              <Link to="/" className="inline-block" aria-label="Cruip">
+              <Link to="/" className="inline-block " aria-label="Cruip">
                 {" "}
-                <img
-                  className="mx-auto"
-                  src={LogoImg}
-                  width="36"
-                  height="36"
-                  alt="Logo"
-                />
+                <img className="mx-auto h-7" src={LogoImg} alt="Logo" />
               </Link>
             </div>
             <div className="text-sm text-text-main">
@@ -35,7 +29,7 @@ function Footer() {
           </div>
 
           {/* 2nd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-text-main font-bold mb-2">Products</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -79,10 +73,10 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-text-main font-bold mb-2">Resources</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -126,10 +120,10 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-text-main font-bold mb-2">Company</h6>
             <ul className="text-sm">
               <li className="mb-2">
@@ -173,7 +167,7 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 5th block */}
           {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
