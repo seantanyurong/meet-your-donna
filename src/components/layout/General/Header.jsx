@@ -1,40 +1,40 @@
-import React, { useState, useRef, useEffect } from "react";
+// import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Transition from "../../utils/Transition";
+// import Transition from "../../utils/Transition";
 import LogoImg from "../../../assets/Logo.png";
 // import Dropdown from "../../utils/Dropdown";
 
 function Header() {
-  const [mobileNavOpen, setMobileNavOpen] = useState(false);
+  // const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
-  const trigger = useRef(null);
-  const mobileNav = useRef(null);
+  // const trigger = useRef(null);
+  // const mobileNav = useRef(null);
 
   // close the mobile menu on click outside
-  useEffect(() => {
-    const clickHandler = ({ target }) => {
-      if (!mobileNav.current || !trigger.current) return;
-      if (
-        !mobileNavOpen ||
-        mobileNav.current.contains(target) ||
-        trigger.current.contains(target)
-      )
-        return;
-      setMobileNavOpen(false);
-    };
-    document.addEventListener("click", clickHandler);
-    return () => document.removeEventListener("click", clickHandler);
-  });
+  // useEffect(() => {
+  //   const clickHandler = ({ target }) => {
+  //     if (!mobileNav.current || !trigger.current) return;
+  //     if (
+  //       !mobileNavOpen ||
+  //       mobileNav.current.contains(target) ||
+  //       trigger.current.contains(target)
+  //     )
+  //       return;
+  //     setMobileNavOpen(false);
+  //   };
+  //   document.addEventListener("click", clickHandler);
+  //   return () => document.removeEventListener("click", clickHandler);
+  // });
 
   // close the mobile menu if the esc key is pressed
-  useEffect(() => {
-    const keyHandler = ({ keyCode }) => {
-      if (!mobileNavOpen || keyCode !== 27) return;
-      setMobileNavOpen(false);
-    };
-    document.addEventListener("keydown", keyHandler);
-    return () => document.removeEventListener("keydown", keyHandler);
-  });
+  // useEffect(() => {
+  //   const keyHandler = ({ keyCode }) => {
+  //     if (!mobileNavOpen || keyCode !== 27) return;
+  //     setMobileNavOpen(false);
+  //   };
+  //   document.addEventListener("keydown", keyHandler);
+  //   return () => document.removeEventListener("keydown", keyHandler);
+  // });
 
   return (
     <header
@@ -42,132 +42,39 @@ function Header() {
       `}
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-6">
-        <div className="flex items-center justify-between h-16 md:h-20 relative">
+        <div className="flex-col sm:flex-row flex items-center justify-between h-16 md:h-20 relative">
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
+          <div className="shrink-0 mr-4 ">
             {/* Logo */}
-            <Link to="/" className="flex items-center" aria-label="Cruip">
-              {/* <svg
-                className="w-8 h-8"
-                viewBox="0 0 32 32"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <defs>
-                  <radialGradient
-                    cx="21.152%"
-                    cy="86.063%"
-                    fx="21.152%"
-                    fy="86.063%"
-                    r="79.941%"
-                    id="header-logo"
+            <Link
+              to="/"
+              className="flex items-center relative "
+              aria-label="Cruip"
+            >
+              <img className="mx-auto h-7" src={LogoImg} alt="Logo" />
+              <div className="w-[16.5rem] origin-bottom -rotate-2 absolute bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center -left-[50%] mx-auto sm:-left-[20px] -bottom-[45px]">
+                {[...Array(5)].map((x, i) => (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="#ffcd05"
+                    className="w-4 h-4"
+                    key={i}
                   >
-                    <stop stopColor="#4FD1C5" offset="0%" />
-                    <stop stopColor="#81E6D9" offset="25.871%" />
-                    <stop stopColor="#338CF5" offset="100%" />
-                  </radialGradient>
-                </defs>
-                <rect
-                  width="32"
-                  height="32"
-                  rx="16"
-                  fill="url(#header-logo)"
-                  fillRule="nonzero"
-                />
-              </svg> */}
-              <img
-                className="mx-auto"
-                src={LogoImg}
-                width="36"
-                height="36"
-                alt="Logo"
-              />
-              <p className="text-2xl font-semibold tracking-tighter text-text-main ml-2">
-                Donna
-              </p>
+                    <path
+                      fillRule="evenodd"
+                      d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                ))}
+                <span className="ml-1"> "SUPERSTAR TRIO"</span>
+              </div>
             </Link>
-            <div className="origin-bottom -rotate-2 absolute bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center -left-[20px] -bottom-[15px]">
-              {[...Array(5)].map((x, i) => (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="#ffcd05"
-                  className="w-4 h-4"
-                  key={i}
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-              ))}
-              <span className="ml-1"> "SUPERSTAR TRIO"</span>
-            </div>
           </div>
 
           {/* Desktop navigation */}
-          <nav className="hidden md:flex md:grow">
-            {/* <ul className="flex grow justify-end flex-wrap items-center">
-              <li>
-                <Link
-                  to="/pricing"
-                  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/about"
-                  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  About us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/tutorials"
-                  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Tutorials
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/blog"
-                  className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                >
-                  Blog
-                </Link>
-              </li>
-              <Dropdown title="Resources">
-                <li>
-                  <Link
-                    to="/documentation"
-                    className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
-                  >
-                    Documentation
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/support"
-                    className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
-                  >
-                    Support center
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/404"
-                    className="font-medium text-sm text-gray-600 hover:text-gray-900 flex py-2 px-5 leading-tight"
-                  >
-                    404
-                  </Link>
-                </li>
-              </Dropdown>
-            </ul> */}
-
+          <nav className="flex grow mt-16 sm:mt-0">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
@@ -190,8 +97,7 @@ function Header() {
           </nav>
 
           {/* Mobile menu */}
-          <div className="flex md:hidden">
-            {/* Hamburger button */}
+          {/* <div className="flex md:hidden">
             <button
               ref={trigger}
               className={`hamburger ${mobileNavOpen && "active"}`}
@@ -211,7 +117,6 @@ function Header() {
               </svg>
             </button>
 
-            {/*Mobile navigation */}
             <div ref={mobileNav}>
               <Transition
                 show={mobileNavOpen}
@@ -225,7 +130,7 @@ function Header() {
                 leaveStart="opacity-100"
                 leaveEnd="opacity-0"
               >
-                {/* <ul className="px-5 py-2">
+                <ul className="px-5 py-2">
                   <li>
                     <Link
                       to="/pricing"
@@ -305,10 +210,10 @@ function Header() {
                       <span>Schedule a call</span>
                     </Link>
                   </li>
-                </ul> */}
+                </ul>
               </Transition>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
