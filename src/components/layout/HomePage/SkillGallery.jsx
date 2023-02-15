@@ -14,7 +14,7 @@ function SkillGallery() {
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Top 3% Developer on Upwork
+              Self-proclaimed Notion Gods
             </mark>
             ."
           </p>
@@ -79,7 +79,7 @@ function SkillGallery() {
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Self-proclaimed Notion Gods
+              Top 3% Developer on Upwork
             </mark>
             ."
           </p>
@@ -87,15 +87,16 @@ function SkillGallery() {
         </div>
         <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
-          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
-            "<mark className="bg-highlight-yellow">AWS Certified</mark>
-            ."
-          </p>
+
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
             "We can{" "}
             <mark className="bg-highlight-yellow">
               Learn Almost Anything Quickly
             </mark>
+            ."
+          </p>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">
+            "<mark className="bg-highlight-yellow">AWS Certified</mark>
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-md md:text-2xl font-semibold text-text-main">

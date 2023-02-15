@@ -139,9 +139,7 @@ function Introduction() {
               <li>
                 •{" "}
                 <a
-                  href="https://basecamp.com/"
-                  target="_blank"
-                  rel="noreferrer"
+                  href="#skills"
                   className="font-semibold text-sm text-link-main hover:text-link-hover underline"
                 >
                   Browse our skills.
