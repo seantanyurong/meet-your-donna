@@ -170,6 +170,21 @@ function SkillGallery() {
           </p>
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
         </div>
+        <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
+          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-sm md:text-2xl font-bold text-text-main">
+            "
+            <mark className="bg-highlight-yellow">
+              Certified in Product Management
+            </mark>
+            ."
+          </p>
+          <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-sm md:text-2xl font-bold text-text-main">
+            "<mark className="bg-highlight-yellow">Python Automation</mark>
+            ."
+          </p>
+          <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-r-none"></div>
+        </div>
       </div>
     </section>
   );
