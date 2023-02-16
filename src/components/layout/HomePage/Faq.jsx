@@ -3,7 +3,7 @@ function Faq() {
     <section className="mt-16">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="text-center">
-          <h3 className="text-3xl md:text-4xl font-bold text-text-main mb-3 leading-tighter">
+          <h3 className="text-3xl md:text-4xl font-black text-text-main mb-3 leading-tighter">
             Who is Donna?
           </h3>
           <p className="text-xl md:text-2xl text-text-main mb-8">
@@ -14,7 +14,7 @@ function Faq() {
           <span className="mx-auto block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
         </div>
         <div className="text-center">
-          <h3 className="text-3xl md:text-4xl font-bold text-text-main mb-3 leading-tighter">
+          <h3 className="text-3xl md:text-4xl font-black text-text-main mb-3 leading-tighter">
             So what exactly can Donna do?
           </h3>
           <p className="text-xl md:text-2xl text-text-main ">
@@ -30,7 +30,7 @@ function Faq() {
           <span className="mx-auto block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
         </div>
         <div className="text-center">
-          <h3 className="text-3xl md:text-4xl font-bold text-text-main mb-3 leading-tighter">
+          <h3 className="text-3xl md:text-4xl font-black text-text-main mb-3 leading-tighter">
             Why was Donna created?
           </h3>
           <p className="text-xl md:text-2xl text-text-main mb-8">
@@ -43,7 +43,7 @@ function Faq() {
           <span className="mx-auto block bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] h-1 w-40 mb-16 rounded-full"></span>
         </div>
         <div className="text-center">
-          <h3 className="text-3xl md:text-4xl font-bold text-text-main mb-3 leading-tighter">
+          <h3 className="text-3xl md:text-4xl font-black text-text-main mb-3 leading-tighter">
             Ok, I'm sold - how much is Donna?
           </h3>
           <p className="text-xl md:text-2xl text-text-main mb-8">

@@ -8,7 +8,7 @@ function HeroBanner() {
         <div className="pt-16 md:pt-4 ">
           {/* Section header */}
           <div className=" pb-12 md:pb-16">
-            <h1 className="text-4xl md:text-6xl font-bold leading-none mb-4 text-text-main">
+            <h1 className="text-4xl md:text-6xl font-black leading-none mb-4 text-text-main">
               We help successful solo entrepreneurs do the dumb work.
             </h1>
             <div className="max-w-4xl mx-auto">
@@ -24,7 +24,7 @@ function HeroBanner() {
                   rel="noreferrer"
                 >
                   <div className=" bg-primary-main hover:bg-primary-hover text-white py-4 px-2 md:px-10 rounded-full items-center">
-                    <h3 className="text-xl md:text-2xl font-medium">
+                    <h3 className="text-xl md:text-2xl font-bold">
                       Schedule a free chat
                     </h3>
                     <p className="text-xs sm:text-sm font-light">
@@ -46,7 +46,7 @@ function HeroBanner() {
       </div>
       <a
         href="#skills"
-        className="font-semibold text-2xl text-link-main hover:text-link-hover underline"
+        className="font-bold text-2xl text-link-main hover:text-link-hover underline"
       >
         See everything we can do in the skills gallery
       </a>

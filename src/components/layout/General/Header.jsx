@@ -86,7 +86,7 @@ function Header() {
                   href="https://ix0dy8pqosu.typeform.com/to/XZLHJIV8"
                   target="_blank"
                   rel="noreferrer"
-                  className=" bg-primary-main hover:bg-primary-hover font-semibold text-white py-2 px-4 rounded-full flex items-center"
+                  className=" bg-primary-main hover:bg-primary-hover font-bold text-white py-2 px-4 rounded-full flex items-center"
                 >
                   <span>Schedule a call</span>
                 </a>

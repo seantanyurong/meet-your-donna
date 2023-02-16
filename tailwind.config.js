@@ -77,7 +77,8 @@ module.exports = {
         "1/1": "100%",
       },
       fontFamily: {
-        sans: ["Graphik", "sans-serif"],
+        sans: ["Source Sans Pro", "sans-serif"],
+        // sans: ["Graphik", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
       fontSize: {

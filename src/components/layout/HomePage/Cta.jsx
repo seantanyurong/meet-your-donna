@@ -4,7 +4,7 @@ const Cta = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center mb-16">
       <div className=" bg-highlight-eggshell p-8 md:p-20 rounded-md border-2 border-dotted border-text-main">
-        <h3 className="text-3xl md:text-5xl font-bold leading-none mb-4 text-text-main">
+        <h3 className="text-3xl md:text-5xl font-black leading-none mb-4 text-text-main">
           It's time to stop working in your business, and{" "}
           <u>working on your business instead.</u>
         </h3>
@@ -21,7 +21,7 @@ const Cta = () => {
             rel="noreferrer"
           >
             <div className=" bg-primary-main hover:bg-primary-hover text-white py-4 px-4 md:px-10 rounded-full items-center">
-              <h3 className="text-xl md:text-2xl font-medium">
+              <h3 className="text-xl md:text-2xl font-bold">
                 Schedule a free chat
               </h3>
               <p className="text-xs sm:text-sm font-light">
