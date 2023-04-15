@@ -41,7 +41,7 @@ function SkillGallery() {
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-sm md:text-2xl font-bold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Sales & Business Development
+              Top 3% Developer on Upwork
             </mark>
             ."
           </p>
@@ -76,7 +76,7 @@ function SkillGallery() {
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-sm md:text-2xl font-bold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Top 3% Developer on Upwork
+              Sales & Business Development
             </mark>
             ."
           </p>

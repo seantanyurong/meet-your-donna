@@ -9,7 +9,7 @@ function HeroBanner() {
           {/* Section header */}
           <div className=" pb-12 md:pb-16">
             <h1 className="text-4xl md:text-6xl font-black leading-none mb-4 text-text-main">
-              We help successful solo founders do the dumb work.
+              We help successful business owners fully outsource work.
             </h1>
             <div className="max-w-4xl mx-auto">
               <p className="text-xl text-text-main mb-8">

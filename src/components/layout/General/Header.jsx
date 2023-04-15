@@ -46,7 +46,7 @@ function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4 ">
             {/* Logo */}
-            <Link to="/" className="flex items-center relative ">
+            <Link to="/" className="flex items-center relative">
               <img className="mx-auto h-7" src={LogoImg} alt="Logo" />
               <div className="w-[16.5rem] origin-bottom -rotate-2 absolute bg-gradient-to-r from-[#ff7d0f] to-[#ffcd05] py-1 px-4 rounded-md text-sm text-white font-semibold tracking-widest flex items-center -left-[50%] mx-auto sm:-left-[20px] -bottom-[45px]">
                 {[...Array(5)].map((x, i) => (

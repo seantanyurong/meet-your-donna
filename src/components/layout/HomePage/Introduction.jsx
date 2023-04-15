@@ -19,8 +19,8 @@ function Introduction() {
             braindead secretary that you secretly despise but keep around
             because she makes life just a little better.{" "}
             <b>
-              It’s 3 (decently smart) Singaporean guys offering top-notch
-              virtual services that go beyond typical administrative tasks.
+              It’s 3 smart Singaporean guys offering top-notch virtual services
+              that go beyond typical administrative tasks.
             </b>
           </p>
           <p className="text-md text-text-main mb-3">
@@ -51,7 +51,7 @@ function Introduction() {
             virtual assistant, you wouldn’t even be thinking about the chump
             change you need to keep this assistant by your side (pssst, you
             don’t even need to worry about us gossiping behind your back like a
-            real secretary would)
+            real secretary would).
           </p>
           <p className="text-md text-text-main">
             So <b>let us be the Donna to your Harvey Spectre</b> as you take on
