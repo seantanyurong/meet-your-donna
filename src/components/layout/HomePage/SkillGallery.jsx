@@ -14,7 +14,7 @@ function SkillGallery() {
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-sm md:text-2xl font-bold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Self-proclaimed Notion Gods
+              Top 3% Developer on Upwork
             </mark>
             ."
           </p>
@@ -27,7 +27,7 @@ function SkillGallery() {
         <div className="flex gap-2 md:gap-3 justify-center mb-2 md:mb-3">
           <div className="w-full shrink bg-highlight-eggshell p-4 rounded-md rounded-l-none"></div>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-sm md:text-2xl font-bold text-text-main">
-            "<mark className="bg-highlight-yellow">Tiktok Star</mark>
+            "<mark className="bg-highlight-yellow">Content Creation</mark>
             ."
           </p>
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-sm md:text-2xl font-bold text-text-main">
@@ -41,7 +41,7 @@ function SkillGallery() {
           <p className="shrink-0 border-highlight-darkEggshell shadow-highlight-eggshell border-2 px-3 p-1 md:p-4 rounded-md text-sm md:text-2xl font-bold text-text-main">
             "
             <mark className="bg-highlight-yellow">
-              Top 3% Developer on Upwork
+              Self-proclaimed Notion Gods
             </mark>
             ."
           </p>
